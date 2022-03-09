@@ -1,35 +1,27 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <cine NombreLocal="Cinemark">
 	<pelicula >
-		<NombrePelicula>The batman</NombrePelicula>
+		<Nombre_Pelicula>The batman</Nombre_Pelicula>
 		<genero>Accion/aventura</genero>
 		<descripcion>En su segundo año luchando contra el crimen, Batman explora la corrupción existente en la ciudad de Gotham y el vínculo de esta con su propia familia. Además, entrará en conflicto con un asesino en serie conocido como "el Acertijo".</descripcion>
 		<duracion>Dos horas ciuenta y seis minutos</duracion>
 	</pelicula >
 	<pelicula >
-		<NombrePelicula>Uncharted: Fuera del mapa</NombrePelicula>
+		<Nombre_Pelicula>Uncharted: Fuera del mapa</Nombre_Pelicula>
 		<genero> Aventura/Acción</genero>
 		<descripcion>El cazador de tesoros Victor Sullivan recluta a Nathan Drake para que lo ayude a recuperar una fortuna de 500 años. Lo que comienza como un atraco se convierte en una carrera de trotamundos para alcanzar el premio.</descripcion>
 		<duracion>una hora con cincuenta y seis minutos</duracion>
 	</pelicula>
 	<pelicula>
-		<NombrePelicula>Pil - Princesa cero fresa</NombrePelicula>
+		<Nombre_Pelicula>Pil - Princesa cero fresa</Nombre_Pelicula>
 		<genero>Aventura/Fantasía</genero>
 		<descripcion>Pil es una pequeña huérfana que vive en la calle, en la ciudad medieval de Roc-en-Brume. Junto a sus tres comadrejas amaestradas, Pil sobrevive robando comida en el castillo del siniestro rey Tristain, que ha usurpado el trono.</descripcion>
 		<duracion>una hora y veintinueve minutos</duracion>
 	</pelicula>
 	<pelicula>
-		<NombrePelicula>
-		Spider-Man: No Way Home
-		</NombrePelicula>
-		<genero>
-		Acción/Aventura
-		</genero>
-		<descripcion>
-		Tras descubrirse la identidad secreta de Peter Parker como Spider-Man, la vida del joven se vuelve una locura. Peter decide pedirle ayuda al Doctor Extraño para recuperar su vida. Pero algo sale mal y provoca una fractura en el multiverso.
-		</descripcion>
-		<duracion>
-		dos horas y veintiocho minutos
-		</duracion>
+		<Nombre_Pelicula>Spider-Man: No Way Home</Nombre_Pelicula>
+		<genero>Acción/Aventura</genero>
+		<descripcion>Tras descubrirse la identidad secreta de Peter Parker como Spider-Man, la vida del joven se vuelve una locura. Peter decide pedirle ayuda al Doctor Extraño para recuperar su vida. Pero algo sale mal y provoca una fractura en el multiverso.</descripcion>
+		<duracion>dos horas y veintiocho minutos</duracion>
 	</pelicula>
 </cine>
