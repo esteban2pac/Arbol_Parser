@@ -2,7 +2,7 @@ from tkinter import *
 from tkinter import ttk
 import xml.etree.ElementTree as ET
 
-class parserXmlToPy(ttk.Frame):
+class ParserXmlToPy(ttk.Frame):
 
     def __init__(self, main_window):
 
@@ -12,8 +12,8 @@ class parserXmlToPy(ttk.Frame):
         self.vistaArbol = ttk.Treeview(self)
         self.arbol = ET.parse('Cartelera_Cine.xml')
         self.raiz = self.arbol.getroot()
-        self.nodo_principal = self.vistaArbol.insert("", END, None, text=self.raiz.tag)
-        self.insertando_vistaArbol(self.raiz, parent=self.nodo_principal)
+        self.nodo_primario = self.vistaArbol.insert("", END, None, text=self.raiz.tag)
+        self.insertando_vistaArbol(self.raiz, parent=self.nodo_primario)
         self.vistaArbol.pack(fill=BOTH, expand=True)
         self.pack(fill=BOTH, expand=True)
 
@@ -29,5 +29,5 @@ class parserXmlToPy(ttk.Frame):
 
 
 root = Tk()
-app = parserXmlToPy(root)
+app = ParserXmlToPy(root)
 app.mainloop()
